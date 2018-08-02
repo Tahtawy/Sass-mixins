@@ -1,0 +1,5 @@
+@import './mixins/_grid';
+
+@media screen and (min-width: 1200px){
+    @include make-grid(12, 15, 'lg');
+}

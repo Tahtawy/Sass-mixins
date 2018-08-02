@@ -1,0 +1,10 @@
+@mixin make-grid($number-of-columns, $gutter-size, $screen) {
+    $column-size: 100% / $number-of-columns;
+    @for $i from 1 through $number-of-columns{
+        .col-#{$screen}-#{$i}{
+            width: $column-size * $i;
+            padding-left: #{$gutter-size}px;
+            padding-right: #{$gutter-size}px;
+        }
+    }
+}
