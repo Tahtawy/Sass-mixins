@@ -1,0 +1,9 @@
+@mixin set-padding-l-r($padding-left, $padding-right) {
+    padding-left: $padding-left;
+    padding-right: $padding-right;
+}
+
+@mixin set-padding-t-b($padding-top, $padding-bottom) {
+    padding-top: $padding-top;
+    padding-bottom: $padding-bottom;
+}

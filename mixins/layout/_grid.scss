@@ -5,7 +5,7 @@
             width: $column-size * $i;
         }
     }
-    [class*="col-"]{
+    [class^="col-"]{
         padding-left: #{$gutter-size}px;
         padding-right: #{$gutter-size}px;
     }

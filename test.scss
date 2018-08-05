@@ -1,5 +1,7 @@
-@import './mixins/layout/_grid';
+@import './mixins/_mixins';
 
-@media screen and (min-width: 1200px){
-    @include make-grid(12, 15, 'lg');
+div{
+    @include set-color-background(#fff, #000);
+    @include on-hover-change-opacity(.5);
+    @include add-transition(all .6s ease-in-out);
 }
