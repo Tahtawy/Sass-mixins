@@ -3,8 +3,10 @@
     @for $i from 1 through $number-of-columns{
         .col-#{$screen}-#{$i}{
             width: $column-size * $i;
-            padding-left: #{$gutter-size}px;
-            padding-right: #{$gutter-size}px;
         }
+    }
+    [class*="col-"]{
+        padding-left: #{$gutter-size}px;
+        padding-right: #{$gutter-size}px;
     }
 }
