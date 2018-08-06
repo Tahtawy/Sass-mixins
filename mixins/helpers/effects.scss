@@ -5,3 +5,10 @@
          -o-transition: $transition-value;
             transition: $transition-value;
 }
+
+@mixin change-opacity-on-hover($opacity-before, $opacity-after:1) {
+    opacity: $opacity-before;
+    &:hover {
+        opacity: $opacity-after;
+    }
+}

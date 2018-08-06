@@ -1,11 +1,4 @@
-@mixin set-color-background($color, $background) {
-    background-color: $background;
+@mixin set-color-and-background($color, $background) {
     color: $color;
-}
-
-@mixin on-hover-change-opacity($opacity-before, $opacity-after:1) {
-    opacity: $opacity-before;
-    &:hover {
-        opacity: $opacity-after;
-    }
+    background-color: $background;
 }

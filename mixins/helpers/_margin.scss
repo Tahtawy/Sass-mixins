@@ -1,9 +1,9 @@
-@mixin set-margin-l-r($margin-left, $margin-right) {
+@mixin add-margin-l-r($margin-left, $margin-right) {
     margin-left: $margin-left;
     margin-right: $margin-right;
 }
 
-@mixin set-margin-t-b($margin-top, $margin-bottom) {
+@mixin add-margin-t-b($margin-top, $margin-bottom) {
     margin-top: $margin-top;
     margin-bottom: $margin-bottom;
 }
