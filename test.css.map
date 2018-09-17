@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAEA,GAAG;ECDC,gBAAgB,EDEoB,IAAI;ECDxC,KAAK,EDCyB,IAAI;ECGlC,OAAO,EDF0B,GAAE;EEHnC,kBAAkB,EFIM,oBAAmB;EEHxC,eAAe,EFGM,oBAAmB;EEFvC,cAAc,EFEM,oBAAmB;EEDtC,aAAa,EFCM,oBAAmB;EEAnC,UAAU,EFAM,oBAAmB;ECE3C,SAAQ;IACJ,OAAO,EAHgD,CAAC",
-"sources": ["test.scss","mixins/helpers/_colors.scss","mixins/helpers/_transition&animation.scss"],
+"mappings": "AAMI,oCAA+C;ECLnD,GAAG;IAEK,KAAK,EAAE,GAAG;IACV,SAAS,EAAE,IAAI;ADQnB,2DAA6E;ECXjF,GAAG;IAMK,KAAK,EAAE,IAAI;IACX,SAAS,EAAE,IAAI",
+"sources": ["mixins/helpers/_mediaQuery.scss","test.scss"],
 "names": [],
 "file": "test.css"
 }

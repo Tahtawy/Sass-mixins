@@ -1,7 +1,11 @@
 @import './mixins/_mixins';
-
 div{
-    @include set-color-background(#fff, #000);
-    @include on-hover-change-opacity(.5);
-    @include add-transition(all .6s ease-in-out);
+    @include in-mobile {    
+        color: red;
+        font-size: 25px;
+    }
+    @include in-small {
+        color: blue;
+        font-size: 30px;
+    }
 }
