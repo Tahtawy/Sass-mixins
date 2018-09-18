@@ -1,10 +1,46 @@
-@media screen and (max-width: 543px) {
-  div {
-    color: red;
-    font-size: 25px; } }
-@media screen and (min-width: 544px) and (max-width: 767px) {
-  div {
-    color: blue;
-    font-size: 30px; } }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0; }
+
+body {
+  height: 300vh; }
+
+.flex-container {
+  align-items: center;
+  background-color: #F7F9F9;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  padding: 0;
+  width: 100vw; }
+  .flex-container .flex-item {
+    color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    text-align: center;
+    width: 600px; }
+    .flex-container .flex-item h1 {
+      color: rgba(0, 0, 0, 0.9);
+      font-size: 50px;
+      margin-bottom: 30px;
+      text-transform: uppercase; }
+    .flex-container .flex-item p {
+      font-size: 18px;
+      line-height: 1.5;
+      text-align: center;
+      text-transform: capitalize; }
+    .flex-container .flex-item .button-group {
+      margin-top: 30px; }
+    .flex-container .flex-item button {
+      background-color: #E53D00;
+      border: 0;
+      color: #fff;
+      font-size: 17px;
+      font-weight: 600;
+      padding: 10px 30px;
+      text-transform: capitalize; }
+      .flex-container .flex-item button:first-child {
+        margin-right: 7px; }
 
 /*# sourceMappingURL=test.css.map */
