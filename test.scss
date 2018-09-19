@@ -50,6 +50,9 @@ body {
             &:first-child {
                 margin-right: 7px;
             }
+            @include in-mobile {
+                background-color: #E53Dff;
+            }
         }
     }
 }

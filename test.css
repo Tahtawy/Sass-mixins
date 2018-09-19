@@ -42,5 +42,8 @@ body {
       text-transform: capitalize; }
       .flex-container .flex-item button:first-child {
         margin-right: 7px; }
+      @media screen and (max-width: 543px) {
+        .flex-container .flex-item button {
+          background-color: #E53Dff; } }
 
 /*# sourceMappingURL=test.css.map */
